@@ -1,5 +1,5 @@
 <?php
-namespace App\Utils;
+namespace Skrip42\ClassName;
 
 use Doctrine\Inflector\Inflector;
 use Doctrine\Inflector\InflectorFactory;
