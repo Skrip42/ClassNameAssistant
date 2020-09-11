@@ -17,7 +17,10 @@ class ClassName
         if (strrpos($className, '\\') !== false) {
             $this->className = substr($className, strrpos($className, '\\') + 1);
             $this->namespace = substr($className, 0, strrpos($className, '\\'));
+        } else {
+            $this->className = $className;
         }
+
         if (null === static::$inflector) {
             static::$inflector = InflectorFactory::create()->build();
         }
