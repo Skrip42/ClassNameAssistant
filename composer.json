@@ -1,0 +1,24 @@
+{
+    "name": "skrip42/class-name",
+    "description": "class name assistant",
+    "keywords": ["classname"],
+    "homepage": "https://github.com/Skrip42/ClassNameAssistant",
+    "version": "v1.0",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "skrip",
+            "email": "skrip42@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "doctrine/inflector": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skrip42\\ClassName\\":""
+        }
+    }
+}
