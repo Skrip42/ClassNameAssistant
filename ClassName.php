@@ -14,8 +14,10 @@ class ClassName
 
     public function __construct(string $className)
     {
-        $this->className = substr($className, strrpos($className, '\\') + 1);
-        $this->namespace = substr($className, 0, strrpos($className, '\\'));
+        if (strrpos($className, '\\') !== false) {
+            $this->className = substr($className, strrpos($className, '\\') + 1);
+            $this->namespace = substr($className, 0, strrpos($className, '\\'));
+        }
         if (null === static::$inflector) {
             static::$inflector = InflectorFactory::create()->build();
         }
