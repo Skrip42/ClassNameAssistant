@@ -3,7 +3,7 @@
     "description": "class name assistant",
     "keywords": ["classname"],
     "homepage": "https://github.com/Skrip42/ClassNameAssistant",
-    "version": "v1.0",
+    "version": "v1.0.1",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
