@@ -3,9 +3,9 @@
     "description": "class name assistant",
     "keywords": ["classname"],
     "homepage": "https://github.com/Skrip42/ClassNameAssistant",
-    "version": "v1.0.2",
+    "version": "v1.0.3",
     "license": "MIT",
-    "minimum-stability": "v1.0.2",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "skrip",
