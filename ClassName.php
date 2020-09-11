@@ -21,6 +21,11 @@ class ClassName
         }
     }
 
+    public static function from(string $className) : ClassName
+    {
+        return new ClassName($className);
+    }
+
     public function getName() : string
     {
         return $this->namespace . '\\' . $this->className;
